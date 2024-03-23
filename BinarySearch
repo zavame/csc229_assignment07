@@ -27,6 +27,10 @@ public class BinarySearch {
         }
         return index;
     }
+    
+    //ToDo 2: Call the above method and test the algorithm  
+    // provide time and space analysis 
+
     public static void main(String[] args) {
         int[] arr = { 1, 3, 5, 7, 9 };
         int key1 = 5;
@@ -38,7 +42,6 @@ public class BinarySearch {
     }
 
 }
-    //ToDo 2: Call the above method and test the algorithm  
-    // provide time and space analysis 
-
+    // Because the size of the array being searched is halved in each iteration, the binary search algorithm has an O(log n) time complexity. 
+    // The space complexity is O(1) because it is constant
 }
