@@ -27,6 +27,17 @@ public class BinarySearch {
         }
         return index;
     }
+    public static void main(String[] args) {
+        int[] arr = { 1, 3, 5, 7, 9 };
+        int key1 = 5;
+        int key2 = 4;
+        int index1 = BinarySearch.runBinarySearchIteratively(arr, key1, 0, arr.length - 1);
+        int index2 = BinarySearch.runBinarySearchIteratively(arr, key2, 0, arr.length - 1);
+        System.out.println("Index of " + key1 + ": " + index1);
+        System.out.println("Index of " + key2 + ": " + index2);
+    }
+
+}
     //ToDo 2: Call the above method and test the algorithm  
     // provide time and space analysis 
 
